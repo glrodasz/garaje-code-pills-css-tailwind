@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+
+  <style>
+    main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      min-width: 100%;
+    }
+
+    main > div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 8px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .profile-card-css {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 16px;
+      max-width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 0 !important;
+    }
+
+    .profile-picture-css {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+
+    .profile-name-css {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 16px 0 8px;
+    }
+
+    .profile-bio-css {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 16px;
+    }
+
+    .follow-button-css {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .follow-button-css:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="flex items-center justify-center min-h-screen min-w-full">
+    <div class="flex flex-row items-center space-y-10 py-10 gap-8">
+      <!-- Profile Card with Tailwind CSS -->
+      <!-- <div class="bg-white border border-gray-300 rounded-lg p-4 max-w-xs text-center shadow-lg">
+        <img src="public/profile-pic.jpg" alt="Profile Picture" class="rounded-full w-24 h-24 object-cover mx-auto" />
+        <h2 class="text-2xl font-bold my-4">Guillermo Rodas</h2>
+        <p class="text-sm text-gray-600 mb-4">A short bio about Guillermo Rodas.</p>
+        <button class="bg-blue-500 text-white rounded px-4 py-2 hover:bg-blue-700">Follow</button>
+      </div> -->
+
+      <!-- Profile Card with Traditional CSS -->
+      <div class="profile-card-css">
+        <img src="public/profile-pic.jpg" alt="Profile" class="profile-picture-css" />
+        <h2 class="profile-name-css">Guillermo Rodas</h2>
+        <p class="profile-bio-css">A short bio about Guillermo Rodas.</p>
+        <button class="follow-button-css">Follow</button>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
