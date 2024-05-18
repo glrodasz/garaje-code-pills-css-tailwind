@@ -1,17 +1,32 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <main>
-      <div>
-        Hello world
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <main>
+    <div>
+      <div class="profile-card-css">
+        <img src="/profile-pic.jpg" alt="Profile" class="profile-picture-css" />
+        <h2 class="profile-name-css">Guillermo Rodas</h2>
+        <p class="profile-bio-css">A short bio about Guillermo Rodas.</p>
+        <button class="follow-button-css">Follow</button>
       </div>
-    </main>  
-    <script type="module" src="/main.js"></script>
-  </body>
+
+      <div class="bg-white border border-gray-300 rounded-lg p-4 max-w-xs text-center shadow-lg text-gray-900">
+        <img src="/profile-pic.jpg" alt="Profile Picture" class="rounded-full w-24 h-24 object-cover mx-auto" />
+        <h2 class="text-2xl font-bold my-4">Guillermo Rodas</h2>
+        <p class="text-sm text-gray-600 mb-4">A short bio about Guillermo Rodas.</p>
+        <button class="bg-blue-500 text-white rounded px-4 py-2 hover:bg-blue-700">Follow</button>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
