@@ -1,5 +1,5 @@
 ## Creamos el mismo componente con CSS y Tailwind CSS
-Este proyecto hace parte del siguiente video: https://youtube.com/playlist?list=PLKBvDYynKmlWPWyoTOizls8nui87vlBXg
+Este proyecto hace parte del siguiente video: https://youtu.be/kDiVdJKUAo8
 
 ## Lista de mis otros Garaje Code Pills
 https://youtube.com/playlist?list=PLKBvDYynKmlWPWyoTOizls8nui87vlBXg
